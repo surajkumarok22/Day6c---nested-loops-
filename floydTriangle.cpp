@@ -4,13 +4,13 @@ using namespace std;
 int main()
 {
   int n;
-  cout<<"enter the number for character right angle trangle pattern:  ";
+  cout<<"enter the number for floyd's trangle pattern:  ";
   cin>>n;
-  char ch =  'A';
+    int num = 1;
     for(int i = 1; i<=n; i++){
           for(int j = 1; j<=i; j++){
-            cout<<ch;
-            ch++;
+            cout<<" "<<num;
+            num++;
           }
           cout<<endl;
     }
